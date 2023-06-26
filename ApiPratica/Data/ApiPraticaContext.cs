@@ -39,13 +39,13 @@ namespace ApiPratica.Data
             model.Entity<Raza>().HasData(
                 new Raza()
                 {
-                    Id = 1,
+                    RazaId = 1,
                     RazaName = "Chihuahua",
                     RazaColor = "Negrote"
                 },
                 new Raza()
                 {
-                    Id = 2,
+                    RazaId = 2,
                     RazaName = "Pitbull",
                     RazaColor = "Verde"
                 });
@@ -59,7 +59,7 @@ namespace ApiPratica.Data
             },
             new Usuario()
             {
-                Id = 1,
+                Id = 2,
                 NombreUsuario = "Mrpimiento",
                 Contraseña = "megustanmenores",
                 Rol = "Vendedor"
